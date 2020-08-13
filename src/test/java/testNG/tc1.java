@@ -21,7 +21,7 @@ public class tc1 {
 		  driver = new ChromeDriver();  //comment this to run in headless mode and uncomment the above
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		  driver.get("http://13.233.198.241:32768/gameoflife/");
+		  driver.get("http://13.59.66.22:32768/gameoflife/");
 		
 		}
 		
